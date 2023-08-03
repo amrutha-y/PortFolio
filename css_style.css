@@ -8,7 +8,7 @@ body,html{
     color: #666;
 }
 .brand{
-   color: rgb(151, 85, 155);
+   /* color: rgb(151, 85, 155); */
 }
 .brand:hover{
     color: rgb(204, 91, 161);
