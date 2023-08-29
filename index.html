@@ -18,10 +18,15 @@
     </head>
     <body>
       
-              
-            
+      <div class="loader">
+        
+        <div class="ball"></div>
+        <div class="ball2"></div>
+        <div class="ball3"></div>
+    </div>
+  
+    <div class="page">
 
-        <div class="pimg1">
           <nav class="navbar navbar-expand-lg navbar-dark bg-black" >
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><h1 class="brand">ELIXIR</h1></a>
@@ -31,159 +36,174 @@
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="#skills">Skills</a>
+                  <!-- <a class="nav-link" href="#skills">Skills</a> -->
                   <a class="nav-link" href="#projects">Projects</a>
                   <a class="nav-link" href="#contact">Contact</a>
                 </div>
               </div>
             </div>
           </nav>
-          <div lc-helper="background" class="container-fluid py-4 mb-4 d-flex justify-content-center" 
-          background-position: center;
-      background-size:cover;
-      background-repeat:no-repeat">
-              <div class="p-5 mb-4 lc-block col-xxl-7 col-lg-8 col-12" style=" backdrop-filter: blur(6px) saturate(102%);
-          -webkit-backdrop-filter: blur(6px) saturate(102%);
-          background-color: rgba(255, 255, 255, 0.45);
-          border-radius: 12px;
-          border: 1px solid rgba(209, 213, 219, 0.3);">
-                  <div class="lc-block">
-                      <div editable="rich">
-                        <h1 class="fw-bolder display-5">Hello World!</h1>
-                          
-                        <h3 class="display-7">Welcome to my Portfolio</h3>
-                      </div>
-                  </div>
-                  <br>
-                  <div class="lc-block col-md-10">
-                      <div editable="rich">
-                          <h3> I am <strong>AMRUTHA Y</strong> , Django and Python developer and Machine Learning enthusiast. 
-                          </h3>
-                          <h6>My hobbies are playing chess,blogging,poetry writing and singing.</h6>
-                      </div>
-                  </div>
-                  <div class="lc-block">
-                      <a class="btn btn-dark" href="./CV.pdf" role="button" download="">Download Resume</a>
-                  </div>
-              </div>
-          </div>
-        
-        </div>
-        <div class="pimg1">
-        <div lc-helper="background" class="container-fluid py-4 mb-4 d-flex justify-content-center" 
-        background-position: center;
-    background-size:cover;
-    background-repeat:no-repeat">
-            <div class="p-5 mb-4 lc-block col-xxl-7 col-lg-8 col-12" style=" backdrop-filter: blur(6px) saturate(102%);
-        -webkit-backdrop-filter: blur(6px) saturate(102%);
-        background-color: rgba(255, 255, 255, 0.45);
-        border-radius: 12px;
-        border: 1px solid rgba(74, 126, 204, 0.3);">
-         <h3 style="text-align: center;" class="fw-bold" id="skills">TECHNICAL SKILLS</h3>
-                  <table width="100%" id="skill">
-                    <tr>
-                      <td><img src="./skills/icons8-c-50.png" alt=""></td>
-                      <td><img src="./skills/icons8-python-50.png" alt=""></td>
-                      <td><img src="./skills/icons8-java-50.png" alt=""></td>
-                  </tr>
-                  <tr>
-                      <td><img src="./skills/icons8-html-50.png" alt=""></td>
-                      <td><img src="./skills/icons8-css-50.png" alt=""></td>
-                      <td><img src="./skills/icons8-javascript-50.png" alt=""></td>
-                  </tr>
-                  <tr>
-                      <td><img src="./skills/icons8-django-50.png" alt=""></td>
-                      <td><img src="./skills/icons8-mysql-50.png" alt=""></td>
-                      <td><img src="./skills/icons8-database-50.png" alt=""></td>
-                  </tr>    
-                  </table>
-              
-            </div>
-        </div>
-    </div>
-        <div class="pimg2">
-          <section class="section section-dark"  id="projects">
-            <h3>RECENT PROJECTS</h3>
-          </section>
-          <div class="container">
-            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-                <div class="col">
-                    <div class="lc-block card card-cover h-100 overflow-hidden text-white rounded-2" lc-helper="background" style=" background-image:url(./projects/blog.png); background-size:cover">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
-                            <div class="lc-block pt-5 mt-5 mb-4">
-                                <div editable="rich">
-                                    <section class="section section-dark">
-                                        <h4 class="lh-1 fw-bold">TECHLOG</h4>
-                                    <p>Blog website developed using Django and Python.</p>
-
-                                    </section>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="col">
-                    <div class="lc-block card card-cover h-100 overflow-hidden text-white rounded-2" lc-helper="background" style="background:url(./projects/p3.png)  center / cover no-repeat;">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <div class="lc-block pt-5 mt-5 mb-4">
-                                <div editable="rich">
-                                    <section class="section section-light">
-                                        <h4 class="lh-1 fw-bold">ELIXIR-AI</h4>
-                                    <p>Virtual Desktop Assistant developed using Python and Openai API.</p>
-
-                                    </section>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="col">
-                    <div class="lc-block card card-cover h-100 overflow-hidden text-white bg-dark rounded-2 shadow-lg" lc-helper="background" style="background:url(./projects/p2.png)  center / cover no-repeat;">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-2">
-                            <div class="lc-block pt-5 mt-5 mb-4">
-                                <div editable="rich">
-                                    <section class="section section-dark">
-                                        <h4 class="lh-1 fw-bold">Inventory Management System</h4>
-                                    <p>Management system developed using PHP,MySQL,HTML/CSS.</p>
-                                    </section>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <footer class="section section-dark" id="contact">
-          <h3>CONTACT INFO</h3>
-          <div class="contact">
-            <a href="https://linkedin.com/in/amrutha-y"><img src="./icons/icons8-linkedin-48.png" alt=""></a>
-            <a href="https://github.com/amrutha-y"><img src="./icons/icons8-github-48.png" alt=""></a>
-            <a href="https://amrutha-y.medium.com/"><img src="./icons/icons8-medium-48.png" alt=""></a>
-            <a href="https://www.instagram.com/last_drop_elixir/"><img src="./icons/icons8-instagram-48.png" alt=""></a>
-            
-          </div>
-          <br>
-          <a href="mailto:amruthachatre@gmail.com"><h5>amruthachatre@gmail.com</h5></a>
-          <h6>Amrutha Y: &copy;</h6>
-        </footer>
-        </div>
-       
-            
-       
-        
           
-                    
-                    
-                   
-                      
+        <div class="bg-opacity-100 bg-dark">
+            <section class="py-lg-16 py-6">
+                <div class="container text-light">
+                  <div class="row d-flex align-items-center">
+                    <div class=" col-xxl-5  col-xl-6 col-lg-6 col-12">
+                      <div>
+                        <h2 class="display-6 fw-normal mb-lg-1">👋 Hi there <br>Welcome to my PortFolio <br><u class="elixir"><span style="color:rgb(176, 118, 176);">I'M AMRUTHA Y</span></u></h2>
+                        <p class="mb-4">Web developer and AIML enthusiast. <br>I love creating cool stuff with computers and I'm on an exhilarating journey to become a trailblazing software developer.</p>
+                        <a class="btn btn-outline-light mb-5" href="./CV.pdf" role="button" download="">Download Resume</a>
+                        <br>
+                        <h2 class="display-6 fw-normal mb-lg-1">💡Skills</h2>
+                        <ul>
+                          <li style="list-style:none;;"><h6>Programming and Tech Skills </h6></li>
+                          <p>C: 💻 Python: 🐍  Basic Java: ☕ SQL: 📊 HTML/CSS: 🌐🎨 JavaScript: 🔗
+                            React: ⚛️ Django: 🎸Machine Learning : 🤖🧠</p>
+                            <li style="list-style:none;;"><h6>Hobbies and Interests</h6></li>
+                          <p>🎵 - Music 📝  - Blogging ♟️ - Chess ✍️ - Poetry writing</p>
+                        
+                          </ul>
+                      </div>
+                    </div>
+                    <div class="col-xxl-5 offset-xxl-1 col-xl-6 col-lg-6 col-12 d-lg-flex justify-content-end">
+                      <div class="mt-12 mt-lg-0 position-relative">
+                        <div class="position-absolute top-0 start-0 translate-middle  d-none d-md-block">
+                          <!-- <img src="../assets/images/svg/graphics-2.svg" alt="graphics-2"> -->
+                        </div>
+                        <img src="./heroimg.jpeg" alt="image" class="card-img rounded-5 w-10 z-1 position-relative opacity-75">
+                        <div class="position-absolute top-100 start-100 translate-middle  d-none d-md-block">
+                          <!-- <img src="../assets/images/svg/graphics-1.svg" alt="graphics-1"> -->
+                          
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section class="section section-dark" id="projects">
+                <h2>RECENT PROJECTS</h2>
+              </section>
+               
+  
+    <div class="container py-5">
+      <div class="row mb-lg-4">
+         <div class="col-6 col-lg-3 mb-4 mb-lg-0">
+            <div class="lc-block mb-3">
+               <img class="img-fluid" src="./projects/blog.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Laika Notebooks" loading="lazy">
+            </div>
+            <!-- /lc-block -->
+            <div class="lc-block text-center mb-3">
+               <div editable="rich">
+                  <h3 class="text-light">TECHLOG</h3>
+               </div>
+            </div>
+            <!-- /lc-block -->
+            <div class="lc-block text-center mb-4">
+               <div editable="rich">
+                  <p class="small text-light">Python-Django-HTML/CSS-Medium API</p>
+               </div>
+            </div>
+            <!-- /lc-block -->
+            <div class="lc-block text-center">
+               <a class="btn btn-link" href="https://github.com/amrutha-y/Blog" role="button">Project Link</a>
+            </div>
+            <!-- /lc-block -->
+         </div>
+         <!-- /col -->
+         <div class="col-6 col-lg-3 mb-4 mb-lg-0">
+            <div class="lc-block mb-3">
+               <img class="img-fluid" src="./projects/p3.png" srcset="" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Daniela Díaz" loading="lazy">
+            </div>
+            <!-- /lc-block -->
+            <div class="lc-block text-center mb-3">
+               <div editable="rich">
+                  <h3 class="text-light">ElixirAI</h3>
+               </div>
+            </div>
+            <!-- /lc-block -->
+            <div class="lc-block text-center mb-4">
+               <div editable="rich">
+                  <p class="small text-light">Python-Jupyter Notebook-OpenAI API</p>
+               </div>
+            </div>
+            <!-- /lc-block -->
+            <div class="lc-block text-center">
+               <a class="btn btn-link" href="https://github.com/amrutha-y/ElixirAI" role="button">Project Link</a>
+            </div>
+            <!-- /lc-block -->
+         </div>
+         <!-- /col -->
+         <div class="col-6 col-lg-3 mb-4 mb-lg-0">
+          <div class="lc-block mb-3">
+             <img class="img-fluid" src="./projects/p2.png" srcset="" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Daniela Díaz" loading="lazy">
+          </div>
+          <!-- /lc-block -->
+          <div class="lc-block text-center mb-3">
+             <div editable="rich">
+                <h3 class="text-light">Inventory Management System</h3>
+             </div>
+          </div>
+          <!-- /lc-block -->
+          <div class="lc-block text-center mb-4">
+             <div editable="rich">
+                <p class="small text-light">PHP-MySQL-HTML/CSS-JavaScript</p>
+             </div>
+          </div>
+          <!-- /lc-block -->
+          <div class="lc-block text-center">
+             <a class="btn btn-link" href="https://github.com/amrutha-y/Inventory-Management-System" role="button">Project Link</a>
+          </div>
+          <!-- /lc-block -->
+       </div>
+       <!-- /col -->
+       <div class="col-6 col-lg-3 mb-4 mb-lg-0">
+        <div class="lc-block mb-3">
+           <img class="img-fluid" src="./projects/p1.png" srcset="" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Daniela Díaz" loading="lazy">
+        </div>
+        <!-- /lc-block -->
+        <div class="lc-block text-center mb-3">
+           <div editable="rich">
+              <h3 class="text-light">Muzic</h3>
+           </div>
+        </div>
+        <!-- /lc-block -->
+        <div class="lc-block text-center mb-4">
+           <div editable="rich">
+              <p class="small text-light"> HTML/CSS-JavaScript</p>
+           </div>
+        </div>
+        <!-- /lc-block -->
+        <div class="lc-block text-center">
+           <a class="btn btn-link" href="https://github.com/amrutha-y/Muzic" role="button">Project Link</a>
+        </div>
+        <!-- /lc-block -->
+     </div>
+     <!-- /col -->
+         
+         
+         
+      </div>
+      
+   </div> 
+    
+     
+              <footer class="section section-dark" id="contact">
+                <h3>CONTACT INFO</h3>
+                <div class="contact">
+                  <a href="https://linkedin.com/in/amrutha-y"><img src="./icons/icons8-linkedin-48.png" alt=""></a>
+                  <a href="https://github.com/amrutha-y"><img src="./icons/icons8-github-48.png" alt=""></a>
+                  <a href="https://amrutha-y.medium.com/"><img src="./icons/icons8-medium-48.png" alt=""></a>
+                  <a href="https://www.instagram.com/last_drop_elixir/"><img src="./icons/icons8-instagram-48.png" alt=""></a>
                   
-            
+                </div>
+                <br>
+                <a href="mailto:amruthachatre@gmail.com"><h5>amruthachatre@gmail.com</h5></a>
+                <h6>Amrutha Y: &copy;</h6>
+              </footer>
+            </div>
         
+        </div>
         
         <script src="./pf.js"></script> 
     </body>
