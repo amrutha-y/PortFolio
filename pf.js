@@ -6,6 +6,6 @@
 const loader = document.querySelector('.loader')
 setTimeout(() => {
             loader.classList.add('hide')
-        }, 2000)
+        }, 5000)
         
 
